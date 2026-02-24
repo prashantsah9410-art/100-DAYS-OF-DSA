@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Problem: Given an array of n integers, reverse the array in-place using two-pointer approach.
 
 // Input:
@@ -42,4 +43,32 @@ int main() {
     }
 
     return 0;
+=======
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    int left = 0, right = n - 1;
+    while (left < right) {
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+        left++;
+        right--;
+    }
+
+    for (int i = 0; i < n; i++) {
+        printf("%d", arr[i]);
+        if (i != n - 1) printf(" ");
+    }
+
+    return 0;
+>>>>>>> 47d3fa5753fda6e43659c2feb5ac853b6b049e6e
 }
