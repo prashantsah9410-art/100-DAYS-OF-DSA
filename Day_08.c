@@ -29,6 +29,5 @@ int main() {
     
     long long result = power(a, b);
     printf("%lld", result);
-    
-    return 0;
+     return 0;
 }
