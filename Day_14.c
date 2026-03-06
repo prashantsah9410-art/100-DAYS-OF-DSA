@@ -16,7 +16,7 @@
 // 0 0 1
 // Output:
 
-Identity Matrix
+// Identity Matrix
 
 #include <stdio.h>
 
