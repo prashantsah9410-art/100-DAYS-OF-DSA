@@ -15,8 +15,8 @@
 // 0 1 0
 // 0 0 1
 
-Output:
-Identity Matrix
+// // Output:
+// Identity Matrix
 
 #include <stdio.h>
 
