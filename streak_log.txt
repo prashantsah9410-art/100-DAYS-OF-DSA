@@ -76,3 +76,4 @@ DSA practice log: 2026-04-16
 DSA practice log: 2026-04-17
 DSA practice log: 2026-04-18
 DSA practice log: 2026-04-19
+DSA practice log: 2026-04-20
